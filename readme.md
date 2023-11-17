@@ -8,6 +8,8 @@ The Peter principle says that
 
 which means that inside a hierarchycal organization an agent will be promoted until he is not capable enough at the job to be promoted again.
 
+This project reproduces the model developed at https://www.sciencedirect.com/science/article/pii/S037843710900822X.
+
 This project simulates a company with employers with random generated age and competence filling 6 different levels in the hierarchycal structure.
 The purpose of the simulation is to measure how the efficiency of the hierarchycal structure changes with different promotion strategies following different hypotheses on how the competence of the agents changes when promoted.
 
