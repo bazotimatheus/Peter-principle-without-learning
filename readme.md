@@ -2,13 +2,13 @@
 
 ## An agent based simulation showing the effects of the Peter principle in a hierarchical structure
 
+This project reproduces the model developed at https://www.sciencedirect.com/science/article/pii/S037843710900822X.
+
 The Peter principle says that 
 
 "The members of an organization climb the hierarchy until the level of maximum incompetence."
 
 which means that inside a hierarchycal organization an agent will be promoted until he is not capable enough at the job to be promoted again.
-
-This project reproduces the model developed at https://www.sciencedirect.com/science/article/pii/S037843710900822X.
 
 This project simulates a company with employers with random generated age and competence filling 6 different levels in the hierarchycal structure.
 The purpose of the simulation is to measure how the efficiency of the hierarchycal structure changes with different promotion strategies following different hypotheses on how the competence of the agents changes when promoted.
