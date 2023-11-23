@@ -15,10 +15,10 @@ for execution in range(MAX_EXECUTIONS):
     global_efficiency = calculate_global_efficiency(dataset)
     output_file.write('{};{}\n'.format(iteration, global_efficiency))
     
-    dataset = dismiss(dataset)
+    dataset = layoff(dataset)
     dataset = promote(dataset, STRATEGY, HYPOTHESIS)
     dataset = age(dataset)
-    dataset = layoff(dataset)
+    dataset = hire(dataset)
   # end of iterations loop
   output_file.close()
 # end of execution loop
