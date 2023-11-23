@@ -18,7 +18,7 @@ for execution in range(MAX_EXECUTIONS):
     dataset = dismiss(dataset)
     dataset = promote(dataset, STRATEGY, HYPOTHESIS)
     dataset = age(dataset)
-    dataset = hire(dataset)
+    dataset = layoff(dataset)
   # end of iterations loop
   output_file.close()
 # end of execution loop
